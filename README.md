@@ -1,18 +1,18 @@
-# Coin Swap Search AI
+# Coin Swap Search Puzzle AI
 
-This project solves a coin arrangement puzzle using **state-space search** and a **heuristic function**.
+This project solves a classic coin arrangement puzzle using **state-space search** and a **heuristic-based strategy**.
 
-The goal is to rearrange blue and red coins into a target configuration by applying valid slide and jump moves, while efficiently exploring the state space.
+The objective is to transform an initial configuration of blue and red coins into a desired goal configuration using valid moves, while efficiently exploring the state space.
 
 ---
 
-## 🧩 Problem Description
+## 🧩 Puzzle Overview
 
-- The board consists of **7 positions**
+- The board consists of **7 adjacent positions**
 - Coins:
   - `B` = Blue coin
   - `R` = Red coin
   - `0` = Empty cell
-- Only one cell is empty at any time
+- Only one position may be empty at any time
 
-### Initial State Example
+### Example Initial State
