@@ -18,14 +18,8 @@ Only one cell may be empty at any time.
 ### Example Initial State
 B R B R 0 R B
 
-shell
-Copy code
-
 ### Goal State
 B B B 0 R R R
-
-yaml
-Copy code
 
 ---
 
@@ -55,8 +49,6 @@ The heuristic used is:
 
 h(n) = number of coins not in their correct positions
 
-yaml
-Copy code
 
 ### Why this heuristic?
 - Admissible (never overestimates the distance to the goal)
