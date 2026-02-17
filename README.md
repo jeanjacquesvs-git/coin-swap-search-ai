@@ -1,6 +1,6 @@
 # Coin Swap Search AI
 
-This project implements a state-space search solution for a coin arrangement puzzle using heuristic-guided search.
+This project implements a state-space search solution for a coin arrangement puzzle using a heuristic-guided search called A* search.
 
 The objective is to rearrange blue and red coins into a target configuration by applying valid moves while efficiently exploring the state space.
 
